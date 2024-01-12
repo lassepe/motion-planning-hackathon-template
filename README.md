@@ -18,7 +18,7 @@ This package has two runtime dependencies:
 Finally, don't forget to `catkin build` in your workspace have it recognize the new packages.
 
 
-## Quick Start / Common Workflow
+## Quick Start
 
 Each robot has a small onboard computer which runs a ROS master to aid communication between
 low-level nodes running on the robot (motor controllers, sensors, diagnostics etc.).
