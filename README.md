@@ -4,6 +4,9 @@ This repository contains a rough skeleton of a ROS package that you may use as a
 
 ---
 
+>[!Important]
+> This setup assumes that you have ROS 1 (Noetic) installed on your laptop. You can also use a dockerized version inf you prefer, e.g.: <https://github.com/nachovizzo/ros_in_docker>
+
 ## Installing Dependencies
 
 Clone this repo into your ROS workspace as `hackathon`: `git clone https://github.com/lassepe/motion-planning-hackathon hackathon`.
@@ -33,10 +36,6 @@ low-level nodes running on the robot (motor controllers, sensors, diagnostics et
 
 
 ### Connecting Your Laptop to Robot's ROS Master
-
-
->![!Note]
-> This setup assumes that you have ROS 1 (Noetic) installed on your laptop. You can also use a dockerized version inf you prefer, e.g.: <https://github.com/nachovizzo/ros_in_docker>
 
 The only requirement for this workflow to work is that the nodes on your laptop are hooked up with the ROS master on the robot.
 
