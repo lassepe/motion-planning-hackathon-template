@@ -63,7 +63,7 @@ Follow these steps to enable this:
     - `rostopic echo <some_topic>`; if this doesn't work it means your `ROS_IP` is not set correctly or the ros master is launched on an IP alias that is not correctly resolved from your laptop
 
 
-## Launching the Demo Setup
+### Launching the Demo Setup
 
 The main entry point for the demo setup is in `launch/demo.launch`.
 
@@ -79,7 +79,7 @@ You can launch the demo node as: `roslaunch hackathon demo.launch robot_name:=<r
 >![!Note]
 > You may see messages such as `Transform from odom to base_link was unavailable for the time requested. Using latest instead.` from time to time. This is due to wifi network delays and is not avoidable (especially if there are many WiFi devices around). So long as the update rate of the pose in RViz looks reasonable, you can ignore this message.
 
-## Hack Away
+### Hack Away
 
 For your own demo, add your own code in
 
