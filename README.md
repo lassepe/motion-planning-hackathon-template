@@ -71,7 +71,7 @@ By default, this launch file will:
 
 1. Run an instance of the vicon bridge to translate vicon messages into ROS messages
 2. Run an EKF for the robot to augment the vicon readings (pose only) with velocity information (and filter noise).
-3. Launch Rviz to visualize the origin of the vicon frame and the pose EKF estimate of the robot state.
+3. Launch Rviz to visualize the origin of the vicon frame and the EKF estimate of the robot state.
 
 
 You can launch the demo node as: `roslaunch hackathon demo.launch robot_name:=<robot_name>` (where `<robot_name>` is the name of your robot in the Vicon tracker software).
