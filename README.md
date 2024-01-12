@@ -76,4 +76,10 @@ You can launch the demo node as: `roslaunch hackathon demo.launch robot_name:=<r
 
 ## Hack Away
 
-For your own demo, you modify the `demo.launch` file to launch any additional nodes.
+For your own demo, add your own code in
+
+- If you are working in C++: `src/`
+- If you are working in Python: `scripts/`
+
+Then, modify the launch file to also launch your controller / motion-planner.
+

@@ -5,6 +5,8 @@
        Since there may be many robots around, we forward objects individually.
        If you want to add an additional objectd (e.g. an obstacle), you need
        to add a new element to each of the arrays below.
+
+       See also https://github.com/tud-amr/vicon-bridge for more information.
   -->
   <include file="$(find vicon_bridge)/launch/vicon.launch">
     <arg name="only_use_object_specific" default="true"/>
