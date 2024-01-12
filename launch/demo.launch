@@ -1,5 +1,5 @@
 <launch>
-  <arg name="robot_name" default="jackal4"/>
+  <arg name="robot_name"/>
 
   <include file="$(find vicon_bridge)/launch/vicon.launch">
     <arg name="only_use_object_specific" default="true"/>
