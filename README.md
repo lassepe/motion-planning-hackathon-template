@@ -6,7 +6,7 @@ This repository contains a rough skeleton of a ROS package that you may use as a
 
 ## Installing Dependencies
 
-Clone this repo into your ROS workspace.
+Clone this repo into your ROS workspace as `hackathon`: `git clone https://github.com/lassepe/motion-planning-hackathon hackathon`.
 
 This package has two runtime dependencies:
 
