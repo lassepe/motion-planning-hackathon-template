@@ -5,7 +5,7 @@ This repository contains a rough skeleton of a ROS package that you may use as a
 ---
 
 >[!Important]
-> This setup assumes that you have ROS 1 (Noetic) installed on your laptop. You can also use a dockerized version inf you prefer, e.g.: <https://github.com/nachovizzo/ros_in_docker>
+> This setup assumes that you have ROS 1 (Noetic) installed on your laptop. You can also use a dockerized version if you prefer, e.g.: <https://github.com/nachovizzo/ros_in_docker>
 
 ## Installing Dependencies
 
